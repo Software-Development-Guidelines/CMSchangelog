@@ -21,6 +21,7 @@ A changelog is a file which contains a curated, chronologically ordered list of 
 The point of a change log is to make it easier for users and contributors to see precisely what notable changes have been made between each release (or version) of the project.
 
 Given a update FEATURE.ENHANCED.FIXED.SECURITY.REMOVED.DEPRECATED, track the:
+
 ORIGINAL|kEYWORD|KEYWORD | DEFINITION
 ---|--|--------|--------
 added|NEW|**FEATURE**| for new features.
