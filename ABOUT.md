@@ -3,11 +3,12 @@ Index of pages:
 
 * [Summary](/README.md)
 * [Introduction](/README.md)
-* [CMS Changelog (CMSchangelog)](/VERSIONING.md)
+* [CMS Changelog (CMSchangelog)](/CHANGELOG.md)
 * [Why Explicit Versioning](/WHY.md)
 * [FAQ](/FAQ.md)
 * [ABOUT](/ABOUT.md)
 * [Who is using CMS Changelog?](/USERS.md)
+
 
 # About
 
@@ -18,6 +19,13 @@ The CMS Changelog is a fork of [keepachangelog](http://keepachangelog.com) speci
 If you'd like to leave feedback, please [open an issue on GitHub](https://github.com/colomet/CMSchangelog/issues).
 
 
+# How can I contribute?
+
+This document is not the truth; it’s my carefully considered opinion, along with information and examples I gathered. Although I provide an actual CHANGELOG on the GitHub repo.
+
+This is because I want our community to reach a consensus. I believe the discussion is as important as the end result.
+
+
 # License
 
 [Creative Commons - CC BY 3.0](http://creativecommons.org/licenses/by/3.0/)
@@ -26,7 +34,6 @@ If you'd like to leave feedback, please [open an issue on GitHub](https://github
 # Support or Contact
 
 Having trouble with PHP CMS Versioning? Check out our [issues](https://github.com/colomet/CMSchangelog/issues)pages or [contact me](https://www.linkedin.com/in/antonio-devis-lopez/) and we’ll help you sort it out.
-
 
 
 ---

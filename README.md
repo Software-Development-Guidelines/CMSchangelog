@@ -20,7 +20,7 @@ A changelog is a file which contains a curated, chronologically ordered list of 
 
 The point of a change log is to make it easier for users and contributors to see precisely what notable changes have been made between each release (or version) of the project.
 
-Given a update FEATURE.ENHANCED.FIXED.SECURITY.REMOVED.DEPRECATED, track the:
+Given a update ADDITIONS.ENHANCEMENTS.BUGFIXES.SECURITY.REMOVED.DEPRECATED, track the:
 
 |KEYWORD | DEFINITION
 --------|--------
@@ -32,9 +32,7 @@ removed| for deprecated features removed in this release.
 deprecated| for once-stable features removed in upcoming releases.
 
 ///Additional words are available as introduction to each change of the list the ADDITIONS,ENHANCEMENTS.BUGFIXES.SECURITY.REMOVED.DEPRECATED.
- 
- Adds, Contains, Improves, Fixes, Fixes an issue,  Fixes a compatibility issue, Introduces, Introduces a feature, Introduces the, Made it possible, Makes,  Only includes, Prevent, Prevented, Removes, Removes unused, Setup, Specify, Splits, Throws, Updated.
- 
+  
 **If you'd like to leave feedback, please [open an issue on GitHub](https://github.com/colomet/CMSchangelog/issues).**
   
 # - CMS Changelog (CMSchangelog) DRAFT -  
