@@ -1,37 +1,67 @@
-## Welcome to GitHub Pages
+# - CMS Changelog (CMSchangelog) DRAFT -
 
-You can use the [editor on GitHub](https://github.com/Software-Development-Guidelines/CMSchangelog/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Index of pages:
+---------------
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+* [Summary](/README.md#Summary)
+* [Introduction](/README.md#Introduction)
+* [CMS Changelog (CMSchangelog)](/VERSIONING.md)
+* [Why Explicit Versioning](/WHY.md)
+* [FAQ](/FAQ.md)
+* [ABOUT](/ABOUT.md)
+* [Who is using CMS Versioning?](/USERS.md)
 
-### Markdown
+# - CMS Changelog (CMSchangelog) DRAFT -
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+# <a name="Summary"></a>Summary
 
-# Header 1
-## Header 2
-### Header 3
+A changelog is a file which contains a curated, chronologically ordered list of notable changes for each version of a project.
 
-- Bulleted
-- List
+The point of a change log is to make it easier for users and contributors to see precisely what notable changes have been made between each release (or version) of the project.
 
-1. Numbered
-2. List
+Given a update FEATURE.ENHANCED.FIXED.SECURITY.REMOVED.DEPRECATED, track the:
+ORIGINAL|kEYWORD|KEYWORD | DEFINITION
+---|--|--------|--------
+added|NEW|**FEATURE**| for new features.
+changed|tweak|**ENHANCED**| for changes in existing functionality.
+fixed|FIXT|**FIXED**|    for any bug fixes.
+security|security|**SECURITY**| to invite users to upgrade in case of vulnerabilities.
+removed|removed|**REMOVED**|  for deprecated features removed in this release.
+deprecated|deprecated|**DEPRECATED**| for once-stable features removed in upcoming releases.
 
-**Bold** and _Italic_ and `Code` text
+///Additional labels for pre-release, release candidate and build metadata are available as extensions to the RELEASE.MAJOR.MINOR.PATCH format.
 
-[Link](url) and ![Image](src)
-```
+**If you'd like to leave feedback, please [open an issue on GitHub](https://github.com/colomet/CMSchangelog/issues).**
+  
+# - CMS Changelog (CMSchangelog) DRAFT -  
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+# <a name="Introduction"></a>Introduction
 
-### Jekyll Themes
+In the world of software management there exists a dread place called "dependency hell." The bigger your system grows and the more packages you integrate into your software, the more likely you are to find yourself, one day, in this pit of despair.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Software-Development-Guidelines/CMSchangelog/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+In systems with many dependencies, releasing new package versions can quickly become a nightmare. ///If the dependency specifications are too tight, you are in danger of version lock (the inability to upgrade a package without having to release new versions of every dependent package). If dependencies are specified too loosely, you will inevitably be bitten by version promiscuity (assuming compatibility with more future versions than is reasonable).///
+Dependency hell is where you are when version lock and/or version promiscuity prevent you from easily and safely moving your project forward.
+///
+**In CMS (WordPress, Joomla, Drupal) also exist the problem of the complements (Modules, Aplications, Plugins, Components, add-ons ...) where we need to take care of the code once we integrate our development in the CMS.** We need to know what it change in order to know if it will affect our own development.
 
-### Support or Contact
+Another problem we find is about keepachangelog, keepachangelog is too self code focus and some times the developers need more information.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+As a solution to this problem, I propose a simple set of rules and requirements that dictate how version numbers are assigned and incremented in a base of 4 digit instead of the 3 digits of [Semantic Versioning](http://semver.org/), in that way we split in a different digit each one of the situations.
+
+These rules are based on but not necessarily limited to pre-existing widespread common practices in use in both closed and open-source software.
+
+
+I call this system ["CMS Changelog (CMSchangelog)"](/CHANGELOG.md) Under this scheme, change logs and the way they change convey meaning about the underlying code and what has been modified from one version to the next.
+
+
+   <a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+   
+   <script src="https://apis.google.com/js/platform.js" async defer></script>
+   <g:plus action="share"></g:plus>
+ 
+---
+
+
+
+[Start page](./)
