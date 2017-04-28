@@ -22,14 +22,14 @@ The point of a change log is to make it easier for users and contributors to see
 
 Given a update ADDITIONS, ENHANCEMENTS, BUGFIXES, SECURITY, REMOVED, DEPRECATED, track the:
 
-|KEYWORD | DEFINITION
---------|--------
-Additions| for new features.
-Enhancements| for changes in existing functionality.
-Bugfixes| for any bug fixes.
-security| to invite users to upgrade in case of vulnerabilities.
-removed| for deprecated features removed in this release.
-deprecated| for once-stable features removed in upcoming releases.
+KEYWORD|KEYWORD | DEFINITION
+--------|--------|--------
+New | Additions| for new features.
+Tweak | Enhancements| for changes in existing functionality.
+Fix | Bugfixes| for any bug fixes.
+ | security| to invite users to upgrade in case of vulnerabilities.
+ | removed| for deprecated features removed in this release.
+ | deprecated| for once-stable features removed in upcoming releases.
 
 [Additional words](/CHANGELOG.md) are available as introduction to each change of the list the ADDITIONS, ENHANCEMENTS, BUGFIXES, SECURITY, REMOVED, DEPRECATED.
   
