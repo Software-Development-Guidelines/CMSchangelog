@@ -22,17 +22,19 @@ The point of a change log is to make it easier for users and contributors to see
 
 Given a update FEATURE.ENHANCED.FIXED.SECURITY.REMOVED.DEPRECATED, track the:
 
-ORIGINAL|kEYWORD|KEYWORD | DEFINITION
----|--|--------|--------
-added|NEW|**FEATURE**| for new features.
-changed|tweak|**ENHANCED**| for changes in existing functionality.
-fixed|FIXT|**FIXED**|    for any bug fixes.
-security|security|**SECURITY**| to invite users to upgrade in case of vulnerabilities.
-removed|removed|**REMOVED**|  for deprecated features removed in this release.
-deprecated|deprecated|**DEPRECATED**| for once-stable features removed in upcoming releases.
+|KEYWORD | DEFINITION
+--------|--------
+Additions| for new features.
+Enhancements| for changes in existing functionality.
+Bugfixes| for any bug fixes.
+security| to invite users to upgrade in case of vulnerabilities.
+removed| for deprecated features removed in this release.
+deprecated| for once-stable features removed in upcoming releases.
 
-///Additional labels for pre-release, release candidate and build metadata are available as extensions to the RELEASE.MAJOR.MINOR.PATCH format.
-
+///Additional words are available as introduction to each change of the list the ADDITIONS,ENHANCEMENTS.BUGFIXES.SECURITY.REMOVED.DEPRECATED.
+ 
+ Adds, Contains, Improves, Fixes, Fixes an issue,  Fixes a compatibility issue, Introduces, Introduces a feature, Introduces the, Made it possible, Makes,  Only includes, Prevent, Prevented, Removes, Removes unused, Setup, Specify, Splits, Throws, Updated.
+ 
 **If you'd like to leave feedback, please [open an issue on GitHub](https://github.com/colomet/CMSchangelog/issues).**
   
 # - CMS Changelog (CMSchangelog) DRAFT -  
