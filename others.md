@@ -1,3 +1,12 @@
+https://make.wordpress.org/themes/2015/04/29/a-revised-readme/
+
+https://make.wordpress.org/themes/2015/04/26/changelog-proposal/
+
+
+
+
+
+
 
 * Highlights
   * New

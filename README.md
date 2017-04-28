@@ -31,7 +31,7 @@ security| to invite users to upgrade in case of vulnerabilities.
 removed| for deprecated features removed in this release.
 deprecated| for once-stable features removed in upcoming releases.
 
-///Additional words are available as introduction to each change of the list the ADDITIONS,ENHANCEMENTS.BUGFIXES.SECURITY.REMOVED.DEPRECATED.
+[Additional words](/CHANGELOG.md)are available as introduction to each change of the list the ADDITIONS, ENHANCEMENTS, BUGFIXES, SECURITY, REMOVED, DEPRECATED.
   
 **If you'd like to leave feedback, please [open an issue on GitHub](https://github.com/colomet/CMSchangelog/issues).**
   
