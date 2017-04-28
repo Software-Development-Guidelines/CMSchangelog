@@ -3,7 +3,7 @@ Index of pages:
 
 * [Summary](/README.md)
 * [Introduction](/README.md)
-* [CMS Versioning (CMSver)](/VERSIONING.md)
+* [CMS Changelog (CMSchangelog)](/CHANGELOG.md)
 * [Why Explicit Versioning](/WHY.md)
 * [FAQ](/FAQ.md)
 * [ABOUT](/ABOUT.md)

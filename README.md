@@ -5,7 +5,7 @@ Index of pages:
 
 * [Summary](/README.md#Summary)
 * [Introduction](/README.md#Introduction)
-* [CMS Changelog (CMSchangelog)](/VERSIONING.md)
+* [CMS Changelog (CMSchangelog)](/CHANGELOG.md)
 * [Why Explicit Versioning](/WHY.md)
 * [FAQ](/FAQ.md)
 * [ABOUT](/ABOUT.md)
