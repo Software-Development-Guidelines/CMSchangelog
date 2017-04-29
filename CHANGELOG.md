@@ -54,7 +54,6 @@ header with Version and Rlease date
 
 1. CMSchangelog MAY use CMSver
 SEMVER or other ways to name your releases are allowed but we RECOMMENDED to use CMSver as we believe it could adapt better to each situation.
-
 Explicitly mention whether the project follows [CMS Versioning](https://software-development-guidelines.github.io/CMScver/).
 
 1. Dates MUST be in YYYY-MM-DD format. It’s international, sensible, and language-independent.
@@ -74,7 +73,7 @@ or
 
 ```
 * ADDITIONS
-  *	new feature #1
+  * new feature #1
   * new feature #2
 * BUGIXED
   * Fix bug #1
