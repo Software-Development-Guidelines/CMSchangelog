@@ -12,8 +12,15 @@ Index of pages:
 
 # Historical
 
+The covering changes for a specific version [40476-40556]. Here are the highlights:
 
+    00 commits
+    00 contributors
+    00 tickets created
+    00 tickets reopened
+    00 tickets closed
 
+Ticket numbers based on trac/github timeline for the period above. The following is a summary of commits, organized by component.
 
 
 * Highlights
@@ -31,6 +38,7 @@ Index of pages:
   * Install Process
   * Multisite
   * Accessibility
+  * Text editor
   
 * Under The Hood
   * General
@@ -63,6 +71,8 @@ Index of pages:
   * External fonts/images/files
   
   * Maintenance and Security Releases 
+  
+  https://make.wordpress.org/core
   
   https://make.wordpress.org/themes/2015/04/29/a-revised-readme/
 
