@@ -116,7 +116,7 @@ The changelog MUST be publicly available. If you offer in a zip, that’s only a
 The file start with a header level 1 with the name of the file. A header level 2 for any version An the level 3 are the grups of changes.
 
 	```
-	= Changelog	=
+	= Changelog =
 	All the NOTABLE changes will be documented in that file.
 	
 		== 1.2.3.0. - 2015-10-21 ==
