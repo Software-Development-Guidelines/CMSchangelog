@@ -23,7 +23,7 @@ A good change log sticks to these principles:
 * DEPRECATED for once-stable features removed in upcoming releases.
 
 
-For a more detailed information you can use ADDITIONS, ENHANCEMENTS, BUGFIXES, SECURITY, REMOVED, DEPRECATED. inside the next changelog keywords: Adds, Contains, Improves, Fixes, Fixes an issue,  Fixes a compatibility issue, Introduces, Introduces a feature, Introduces the, Made it possible, Makes,  Only includes, Prevent, Prevented, Removes, Removes unused, Rename, Setup, Specify, Splits, Throws, Updated.
+For a more detailed information you can use ADDITIONS, ENHANCEMENTS, BUGFIXES, SECURITY, REMOVED, DEPRECATED. inside the next changelog keywords: Adds, Allow, Contains, Displays, Improves, Fixes, Fixes an issue,  Fixes a compatibility issue, Improves, Introduces, Introduces a feature, Introduces the, Made it possible, Makes, Moves, Only includes, Prevent, Prevented, Removes, Removes unused, Rename, Setup, Specify, Splits, Throws, Updated.
  
   
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](http://tools.ietf.org/html/rfc2119).

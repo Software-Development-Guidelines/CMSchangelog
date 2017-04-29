@@ -20,10 +20,11 @@ Given a update ADDITIONS, ENHANCEMENTS, BUGFIXES, SECURITY, REMOVED, DEPRECATED,
 
 KEYWORD|KEYWORD | DEFINITION
 --------|--------|--------
-Enhancement | Update |????
+Enhancement |  |????
 New | Additions| for new features. (Feature???)
 Tweak | Enhancements| for changes in existing functionality.
 Fix | Bugfixes| for any bug fixes.
+| | Update |  for any translation update or dependency or library or any include 3rd party software.
  | security| to invite users to upgrade in case of vulnerabilities.
  | removed| for deprecated features removed in this release.
  | deprecated| for once-stable features removed in upcoming releases.
