@@ -48,10 +48,9 @@ are organized by paragraphs, which define a unique change within a function or f
 1. The format MUST HAVE one header with information
 header with Version and Rlease date
 
-```
-1.2.3.4. - 2015-10-21
-```
-
+	```
+	1.2.3.4. - 2015-10-21
+	```
 1. CMSchangelog MAY use CMSver
 SEMVER or other ways to name your releases are allowed but we RECOMMENDED to use CMSver as we believe it could adapt better to each situation.
 Explicitly mention whether the project follows [CMS Versioning](https://software-development-guidelines.github.io/CMScver/).
@@ -63,23 +62,22 @@ Include release date for each release you do. People like to know when a release
 with the name of the sub-sections if any ADDITIONS, ENHANCEMENTS, BUGIXED, SECURITY, REMOVED, DEPRECATED.
 Example of sub-section
 
-```
-* ADDITIONS new feature #1
-* ADDITIONS new feature #2
-* BUGIXED Fix bug #1
-* BUGIXED Fix bug #2
-```
+	```
+	* ADDITIONS new feature #1
+	* ADDITIONS new feature #2
+	* BUGIXED Fix bug #1
+	* BUGIXED Fix bug #2
+	```
 or
 
-```
-* ADDITIONS
-  * new feature #1
-  * new feature #2
-* BUGIXED
-  * Fix bug #1
-  * Fix bug #2
-```
-
+	```
+	* ADDITIONS
+	  * new feature #1
+	  * new feature #2
+	  * BUGIXED
+	  * Fix bug #1
+	  * Fix bug #2
+	  ```
 1. Always have an "UNRELEASED" section at the top for keeping track of any changes. This serves two purposes
 People can see what changes they might expect in upcoming releases and at release time, you just have to change "Unreleased" to the version number and add a new "Unreleased" header at the top.
 
@@ -107,12 +105,13 @@ for keeping track of any changes.
 1. List the Revised Files. This show 
 where to find the changes. Organize it as: Added, Modified and Copied or renamed
 
+	```
 	List of Files Revised
 	
 	settings.php
 	admin/customize.php
 	admin/css/customize.css
-
+	```
 1. Publicly available
 The changelog MUST be publicly available. If you offer in a zip, that’s only accessible to clients. In this case you SHOULD have a page up on your website that includes the changelog and keep it up to date.
 
