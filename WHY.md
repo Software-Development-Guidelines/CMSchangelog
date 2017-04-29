@@ -9,16 +9,16 @@ Index of pages:
 * [ABOUT](/ABOUT.md)
 * [Who is using CMS Changelog?](/USERS.md)
 
+# Why use CMS Changelog (CMS Changelog)?
+The point of a change log is to make it easier for users and contributors to see precisely what notable changes have been made between each release (or version) of the project.
 
-# Why Use CMS Versioning (CMSver)?
+A changelog is a file which contains a curated, chronologically ordered list of notable changes for each version of a project. The difference with a historical file is in the historical files you write all the commit logs.
 
-This is not a new or revolutionary idea. In fact, you probably do something close to this already. The problem is that "close" isn't good enough. Without compliance to some sort of formal specification, version numbers are essentially useless for dependency management. By giving a name and clear definition to the above ideas, it becomes easy to communicate your intentions to the users of your software. Once these intentions are clear, flexible (but not too flexible) dependency specifications can finally be made.
+You whant to make sure everybody understand which changes are in the project. Not just for the developers of the projes, also for the end users of the software. A well curate list of changes incourage to the people to do the same and make easy to the people to jump and contribute.
 
-A simple example will demonstrate how Semantic Versioning can make dependency hell a thing of the past. Consider a library called "Firetruck." It requires a Semantically Versioned package named "Ladder." At the time that Firetruck is created, Ladder is at version 3.1.0. Since Firetruck uses some functionality that was first introduced in 3.1.0, you can safely specify the Ladder dependency as greater than or equal to 3.1.0 but less than 4.0.0. Now, when Ladder version 3.1.1 and 3.2.0 become available, you can release them to your package management system and know that they will be compatible with existing dependent software.
+This is not a new or revolutionary idea. In fact, you probably do something close to this already. The problem is that "close" isn't good enough. By giving a name and clear definition to the commit logs, it becomes easy to communicate your intentions to the users of your software. Once these intentions are clear, it became a prevented measure avoiding missunderstandings, because if the file is update ofthen, the file became the center of the repository, not the develoopers by helping the people how use the software and saving you time and hassle.
 
-As a responsible developer you will, of course, want to verify that any package upgrades function as advertised. The real world is a messy place; there's nothing we can do about that but be vigilant. What you can do is let Semantic Versioning provide you with a sane way to release and upgrade packages without having to roll new versions of dependent packages, saving you time and hassle.
-
-If all of this sounds desirable, all you need to do to start using Semantic Versioning is to declare that you are doing so and then follow the rules. Link to this website from your README so others know the rules and can benefit from them.
+If all of this sounds desirable, all you need to do to start using CMS Changelog is to declare that you are doing so and then follow the rules. Link to this website from your README so others know the rules and can benefit from them.
 
 
 ---

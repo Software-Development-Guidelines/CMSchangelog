@@ -36,11 +36,6 @@ Fix | Bugfixes| for any bug fixes.
 # - CMS Changelog (CMSchangelog) DRAFT -  
 
 # <a name="Introduction"></a>Introduction
-
-A changelog is a file which contains a curated, chronologically ordered list of notable changes for each version of a project.
-
-The point of a change log is to make it easier for users and contributors to see precisely what notable changes have been made between each release (or version) of the project.
-
 **In CMS (WordPress, Joomla, Drupal) also exist the problem of the complements (Modules, Aplications, Plugins, Components, add-ons ...) where we need to take care of the code once we integrate our development in the CMS or if someone create an extension of our code.** We need to know what it change in order to know if it will affect the site.
 
 Another problem we find is about keepachangelog, keepachangelog is too self code focus and some times the developers need more information.

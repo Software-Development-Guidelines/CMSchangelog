@@ -49,7 +49,7 @@ are organized by paragraphs, which define a unique change within a function or f
 header with Version and Rlease date
 
 	```
-	1.2.3.4. - 2015-10-21
+	1.2.3.0. - 2015-10-21
 	```
 1. CMSchangelog MAY use CMSver
 SEMVER or other ways to name your releases are allowed but we RECOMMENDED to use CMSver as we believe it could adapt better to each situation.
@@ -111,6 +111,35 @@ where to find the changes. Organize it as: Added, Modified and Copied or renamed
 	```
 1. Publicly available
 The changelog MUST be publicly available. If you offer in a zip, that’s only accessible to clients. In this case you SHOULD have a page up on your website that includes the changelog and keep it up to date.
+
+1. Example of changelog
+The file start with a header level 1 with the name of the file. A header level 2 for any version An the level 3 are the grups of changes.
+
+	```
+	# Changelog	
+		1.2.3.0. - 2015-10-21
+	  		* ADDITIONS
+			  * new feature #1
+	  		  * new feature #2 (props to @UserName; see #123)
+			* BUGIXED
+	  	      * Fix bug #1
+	  	      * Fix bug #2 (props to @UserName for the report; see #124)
+			  
+		1.2.4.0. - 2015-10-21
+	  		* ADDITIONS
+			  * new feature #1
+	  		  * new feature #2 (props to @UserName; see #123)
+			* BUGIXED
+	  	      * Fix bug #1
+	  	      * Fix bug #2 (props to @UserName for the report; see #124)
+				  
+				    
+	# List of Files Revised
+	-----------------------
+	settings.php
+	admin/customize.php
+	admin/css/customize.css
+	```
 
 ---
 
