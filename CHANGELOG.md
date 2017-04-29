@@ -96,7 +96,6 @@ If there is an Git or CVS commit, MUST be afther the name of the contributor:
 see #123.
 
 >(props to @UserName; see #123)
-  
 
 1. Always inform about the "BREAKING CHANGES" 
 for keeping track of any changes.
