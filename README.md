@@ -16,20 +16,18 @@ Index of pages:
 
 # <a name="Summary"></a>Summary
 
-A changelog is a file which contains a curated, chronologically ordered list of notable changes for each version of a project.
-
-The point of a change log is to make it easier for users and contributors to see precisely what notable changes have been made between each release (or version) of the project.
-
 Given a update ADDITIONS, ENHANCEMENTS, BUGFIXES, SECURITY, REMOVED, DEPRECATED, track the:
 
 KEYWORD|KEYWORD | DEFINITION
 --------|--------|--------
-New | Additions| for new features.
+Enhancement | Update |????
+New | Additions| for new features. (Feature???)
 Tweak | Enhancements| for changes in existing functionality.
 Fix | Bugfixes| for any bug fixes.
  | security| to invite users to upgrade in case of vulnerabilities.
  | removed| for deprecated features removed in this release.
  | deprecated| for once-stable features removed in upcoming releases.
+| PERFORMANCE| for performance information (25% faster, lighter)
 
 [Additional words](/CHANGELOG.md) are available as introduction to each change of the list the ADDITIONS, ENHANCEMENTS, BUGFIXES, SECURITY, REMOVED, DEPRECATED.
   
@@ -39,22 +37,23 @@ Fix | Bugfixes| for any bug fixes.
 
 # <a name="Introduction"></a>Introduction
 
-In the world of software management there exists a dread place called "dependency hell." The bigger your system grows and the more packages you integrate into your software, the more likely you are to find yourself, one day, in this pit of despair.
+A changelog is a file which contains a curated, chronologically ordered list of notable changes for each version of a project.
 
-In systems with many dependencies, releasing new package versions can quickly become a nightmare. ///If the dependency specifications are too tight, you are in danger of version lock (the inability to upgrade a package without having to release new versions of every dependent package). If dependencies are specified too loosely, you will inevitably be bitten by version promiscuity (assuming compatibility with more future versions than is reasonable).///
-Dependency hell is where you are when version lock and/or version promiscuity prevent you from easily and safely moving your project forward.
-///
-**In CMS (WordPress, Joomla, Drupal) also exist the problem of the complements (Modules, Aplications, Plugins, Components, add-ons ...) where we need to take care of the code once we integrate our development in the CMS.** We need to know what it change in order to know if it will affect our own development.
+The point of a change log is to make it easier for users and contributors to see precisely what notable changes have been made between each release (or version) of the project.
+
+**In CMS (WordPress, Joomla, Drupal) also exist the problem of the complements (Modules, Aplications, Plugins, Components, add-ons ...) where we need to take care of the code once we integrate our development in the CMS or if someone create an extension of our code.** We need to know what it change in order to know if it will affect the site.
 
 Another problem we find is about keepachangelog, keepachangelog is too self code focus and some times the developers need more information.
 
-As a solution to this problem, I propose a simple set of rules and requirements that dictate how version numbers are assigned and incremented in a base of 4 digit instead of the 3 digits of [Semantic Versioning](http://semver.org/), in that way we split in a different digit each one of the situations.
+As a solution to this problem, I propose a simple set of names and requirements that dictate how the notable changes are listed in a base of 6 words digit and several keywords and rules instead of the recomendations of [keepachangelog](http://keepachangelog.com/), in that way we give much more information in the release.
 
 These rules are based on but not necessarily limited to pre-existing widespread common practices in use in both closed and open-source software.
 
 
 I call this system ["CMS Changelog (CMSchangelog)"](/CHANGELOG.md) Under this scheme, change logs and the way they change convey meaning about the underlying code and what has been modified from one version to the next.
 
+
+https://restrictcontentpro.com/changelog/
 
    <a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
    
