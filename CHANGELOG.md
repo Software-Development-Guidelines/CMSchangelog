@@ -118,11 +118,7 @@ The file start with a header level 1 with the name of the file. A header level 2
 	```
 	= Changelog	=
 	All the NOTABLE changes will be documented in that file.
-		== Unreleased ==
-			ADDITIONS
-			  * new feature #1
-			  * new feature #2 
-				  
+	
 		== 1.2.3.0. - 2015-10-21 ==
 	  		
 			* ADDITIONS
