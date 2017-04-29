@@ -83,8 +83,9 @@ or
 1. Always have an "UNRELEASED" section at the top for keeping track of any changes. This serves two purposes
 People can see what changes they might expect in upcoming releases and at release time, you just have to change "Unreleased" to the version number and add a new "Unreleased" header at the top.
 
+	```
 	1.2.X.X. - Unreleased
-
+	```
 1. Contributors name SHOULD be writen in the Changelog and the commit MAY be added too
 When you introduce someone else’s changes, put the contributor’s name in the ending of the paragraph of the change of the changelog   rather than in other place and between brakets.
 props to @UserName;
@@ -93,12 +94,15 @@ props to @UserName for the report.
 If there is an Git or CVS commit, MUST be afther the name of the contributor: 
 see #123.
 
+	```
 	(props to @UserName; see #123)
-
+	```
 1. Always inform about the "BREAKING CHANGES" 
 for keeping track of any changes.
 
+	```
 	ADDITIONS New feature #1 (BREAKING CHANGES)
+	```
 
 1. List the Revised Files. This show 
 where to find the changes. Organize it as: Added, Modified and Copied or renamed
