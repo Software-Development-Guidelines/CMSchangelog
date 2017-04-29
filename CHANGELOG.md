@@ -36,8 +36,52 @@ However it is done, it should be precise and comprehensive.
 1. It’s made for humans, not machines, so legibility is crucial. Each change 
 Must be short and easy to understand
 
+1. One section per version
+Easy to link to any section (hence Markdown over plain text).
+
+1. CMSchangelog MAY use CMSver
+SEMVER or other ways to name your releases are allowed but we RECOMMENDED to use CMSver as we believe it could adapt better to each situation.
+
+Explicitly mention whether the project follows [CMS Versioning](https://software-development-guidelines.github.io/CMScver/).
+
+(Example: V 1.0.0.0)
+
+1. List releases in reverse-chronological order
+Newest on top.
+
 1. The Format MUST NOT be change. Changelog files
 are organized by paragraphs, which define a unique change within a function or file and MUST be writen with bulletpoints.
+
+1. The format MUST HAVE one header with information
+header with Version and Rlease date
+
+1. The format MUST HAVE Group changes in sub-sections to describe their impact on the project
+with the name of the sub-sections if any ADDITIONS, ENHANCEMENTS, BUGIXED, SECURITY, REMOVED, DEPRECATED.
+Example of sub-section
+
+```
+
+* ADDITIONS new feature #1
+* ADDITIONS new feature #2
+* BUGIXED Fix bug #1
+* BUGIXED Fix bug #2
+
+```
+or
+
+```
+* ADDITIONS
+  *	new feature #1
+  * new feature #2
+* BUGIXED
+  * Fix bug #1
+  * Fix bug #2
+```
+
+1. Dates MUST be in YYYY-MM-DD format. It’s international, sensible, and language-independent.
+Include release date for each release you do. People like to know when a release was done. The ISO 8601 format YYYY-MM-DD works logically from largest to smallest, doesn't overlap in ambiguous ways with other date formats, and is an [ISO standard](http://www.iso.org/iso/home/standards/iso8601.htm). Thus, it is the recommended date format for change logs.
+
+(Example: 2015-10-21 for October 21, 2015.)
 
 1. Contributors name SHOULD be writen in the Changelog and the commit MAY be added too
 When you introduce someone else’s changes, put the contributor’s name in the ending of the paragraph of the change of the changelog   rather than in other place.
@@ -47,25 +91,6 @@ props to @UserName for the report;
 If there is an Git or CVS commit, MUST be afther the name of the contributor. In other words, write this: 
 props to @UserName; see #670
   
-1. CMSchangelog MAY use CMSver
-SEMVER or other ways to name your releases are allowed but we RECOMMENDED to use CMSver as we believe it could adapt better to each situation.
-
-Explicitly mention whether the project follows [CMS Versioning](https://software-development-guidelines.github.io/CMScver/).
-
-1. Dates MUST be in YYYY-MM-DD format. It’s international, sensible, and language-independent.
-Include release date for each release you do. People like to know when a release was done. The ISO 8601 format YYYY-MM-DD works logically from largest to smallest, doesn't overlap in ambiguous ways with other date formats, and is an [ISO standard](http://www.iso.org/iso/home/standards/iso8601.htm). Thus, it is the recommended date format for change logs.
-
-(Example: 2015-10-21 for October 21, 2015.)
-
-1. One section per version
-Easy to link to any section (hence Markdown over plain text).
-
-1. List releases in reverse-chronological order
-Newest on top.
-
-1. Group changes to describe their impact on the project 
-if any ADDITIONS.ENHANCEMENTS.FBUGIXED.SECURITY.REMOVED.DEPRECATED. 
-
 1. Always inform about the "BREAKING CHANGES" 
 for keeping track of any changes.
 
