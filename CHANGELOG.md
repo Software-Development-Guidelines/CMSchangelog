@@ -55,17 +55,24 @@ are organized by paragraphs, which define a unique change within a function or f
 1. The format MUST HAVE one header with information
 header with Version and Rlease date
 
+```
+1.2.4 - 2015-10-21
+```
+
+1. Dates MUST be in YYYY-MM-DD format. It’s international, sensible, and language-independent.
+Include release date for each release you do. People like to know when a release was done. The ISO 8601 format YYYY-MM-DD works logically from largest to smallest, doesn't overlap in ambiguous ways with other date formats, and is an [ISO standard](http://www.iso.org/iso/home/standards/iso8601.htm). Thus, it is the recommended date format for change logs.
+
+(Example: 2015-10-21 for October 21, 2015.)
+
 1. The format MUST HAVE Group changes in sub-sections to describe their impact on the project
 with the name of the sub-sections if any ADDITIONS, ENHANCEMENTS, BUGIXED, SECURITY, REMOVED, DEPRECATED.
 Example of sub-section
 
 ```
-
 * ADDITIONS new feature #1
 * ADDITIONS new feature #2
 * BUGIXED Fix bug #1
 * BUGIXED Fix bug #2
-
 ```
 or
 
@@ -78,10 +85,12 @@ or
   * Fix bug #2
 ```
 
-1. Dates MUST be in YYYY-MM-DD format. It’s international, sensible, and language-independent.
-Include release date for each release you do. People like to know when a release was done. The ISO 8601 format YYYY-MM-DD works logically from largest to smallest, doesn't overlap in ambiguous ways with other date formats, and is an [ISO standard](http://www.iso.org/iso/home/standards/iso8601.htm). Thus, it is the recommended date format for change logs.
+1. Always have an "UNRELEASED" section at the top for keeping track of any changes. This serves two purposes
+People can see what changes they might expect in upcoming releases and at release time, you just have to change "Unreleased" to the version number and add a new "Unreleased" header at the top.
 
-(Example: 2015-10-21 for October 21, 2015.)
+```
+1.2.4 - Unreleased
+```
 
 1. Contributors name SHOULD be writen in the Changelog and the commit MAY be added too
 When you introduce someone else’s changes, put the contributor’s name in the ending of the paragraph of the change of the changelog   rather than in other place.
@@ -94,11 +103,11 @@ props to @UserName; see #670
 1. Always inform about the "BREAKING CHANGES" 
 for keeping track of any changes.
 
-1. Always have an "UNRELEASED" section at the top for keeping track of any changes. This serves two purposes
-People can see what changes they might expect in upcoming releases and at release time, you just have to change "Unreleased" to the version number and add a new "Unreleased" header at the top.
-
 1. List the Revised Files. This show 
 where to find the changes. Organize it as: Added, Modified and Copied or renamed
+```
+1.2.4 - Unreleased
+```
 
 1. Publicly available
 The changelog MUST be publicly available. If you offer in a zip, that’s only accessible to clients. In this case you SHOULD have a page up on your website that includes the changelog and keep it up to date.
