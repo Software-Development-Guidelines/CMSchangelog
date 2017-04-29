@@ -126,7 +126,7 @@ The file start with a header level 1 with the name of the file. A header level 2
 			  * new feature #2 (props to @UserName; see #123)
 			* BUGIXED
 			  * Fix bug #1
-			  * Fix bug #2 (props to @UserName for the report; see #124)
+			  * Fix bug #2 (props to @UserName; see #124)
 			  
 		== 1.2.4.0. - 2015-10-21 ==
 	  		
@@ -135,7 +135,7 @@ The file start with a header level 1 with the name of the file. A header level 2
 			  * new feature #2 (props to @UserName; see #123)
 			* BUGIXED
 			  * Fix bug #1
-			  * Fix bug #2 (props to @UserName for the report; see #124)
+			  * Fix bug #2 (props to @UserName for the report)
 				  
 				    
 	= List of Files Revised =
