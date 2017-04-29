@@ -95,9 +95,8 @@ props to @UserName for the report.
 If there is an Git or CVS commit, MUST be afther the name of the contributor: 
 see #123.
 
-```
-(props to @UserName; see #123)
-```  
+>(props to @UserName; see #123)
+  
 
 1. Always inform about the "BREAKING CHANGES" 
 for keeping track of any changes.
@@ -108,7 +107,6 @@ ADDITIONS New feature #1 (BREAKING CHANGES)
 
 1. List the Revised Files. This show 
 where to find the changes. Organize it as: Added, Modified and Copied or renamed
-
 ```
 List of Files Revised
 
