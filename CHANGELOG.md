@@ -118,7 +118,8 @@ The file start with a header level 1 with the name of the file. A header level 2
 	```
 	# Changelog	
 		1.2.3.0. - 2015-10-21
-	  		* ADDITIONS
+	  		
+			* ADDITIONS
 			  * new feature #1
 	  		  * new feature #2 (props to @UserName; see #123)
 			* BUGIXED
@@ -126,7 +127,8 @@ The file start with a header level 1 with the name of the file. A header level 2
 	  	      * Fix bug #2 (props to @UserName for the report; see #124)
 			  
 		1.2.4.0. - 2015-10-21
-	  		* ADDITIONS
+	  		
+			* ADDITIONS
 			  * new feature #1
 	  		  * new feature #2 (props to @UserName; see #123)
 			* BUGIXED
