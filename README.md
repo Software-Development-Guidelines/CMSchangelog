@@ -10,6 +10,8 @@ Index of pages:
 * [FAQ](/FAQ.md)
 * [ABOUT](/ABOUT.md)
 * [Who is using CMS Changelog?](/USERS.md)
+* [How to create an Historical](/HISTORICAL.md)
+
 
 # - CMS Changelog (CMSchangelog) DRAFT -
 

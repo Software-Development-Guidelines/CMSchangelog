@@ -8,6 +8,8 @@ Index of pages:
 * [FAQ](/FAQ.md)
 * [ABOUT](/ABOUT.md)
 * [Who is using CMS Changelog?](/USERS.md)
+* [How to create an Historical](/HISTORICAL.md)
+
 
 # Why use CMS Changelog (CMS Changelog)?
 The point of a change log is to make it easier for users and contributors to see precisely what notable changes have been made between each release (or version) of the project.

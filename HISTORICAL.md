@@ -1,8 +1,16 @@
-https://make.wordpress.org/themes/2015/04/29/a-revised-readme/
+Index of pages:
+---------------
 
-https://make.wordpress.org/themes/2015/04/26/changelog-proposal/
+* [Summary](/README.md)
+* [Introduction](/README.md)
+* [CMS Changelog (CMSchangelog)](/CHANGELOG.md)
+* [Why CMS Changelog](/WHY.md)
+* [FAQ](/FAQ.md)
+* [ABOUT](/ABOUT.md)
+* [Who is using CMS Changelog?](/USERS.md)
+* [How to create an Historical](/HISTORICAL.md)
 
-
+# Historical
 
 
 
@@ -31,6 +39,7 @@ https://make.wordpress.org/themes/2015/04/26/changelog-proposal/
 * Script Loader
 * JavaScript
 * CSS
+* Database
 * Bug Fixes
 * Multisite
 * Classes
@@ -54,3 +63,16 @@ https://make.wordpress.org/themes/2015/04/26/changelog-proposal/
   * External fonts/images/files
   
   * Maintenance and Security Releases 
+  
+  https://make.wordpress.org/themes/2015/04/29/a-revised-readme/
+
+  https://make.wordpress.org/themes/2015/04/26/changelog-proposal/
+
+
+  ---
+
+
+
+
+  [Start page](./)
+  
