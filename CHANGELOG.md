@@ -39,13 +39,6 @@ Must be short and easy to understand
 1. One section per version
 Easy to link to any section (hence Markdown over plain text).
 
-1. CMSchangelog MAY use CMSver
-SEMVER or other ways to name your releases are allowed but we RECOMMENDED to use CMSver as we believe it could adapt better to each situation.
-
-Explicitly mention whether the project follows [CMS Versioning](https://software-development-guidelines.github.io/CMScver/).
-
-(Example: V 1.0.0.0)
-
 1. List releases in reverse-chronological order
 Newest on top.
 
@@ -56,13 +49,16 @@ are organized by paragraphs, which define a unique change within a function or f
 header with Version and Rlease date
 
 ```
-1.2.4 - 2015-10-21
+1.2.3.4. - 2015-10-21
 ```
+
+1. CMSchangelog MAY use CMSver
+SEMVER or other ways to name your releases are allowed but we RECOMMENDED to use CMSver as we believe it could adapt better to each situation.
+
+Explicitly mention whether the project follows [CMS Versioning](https://software-development-guidelines.github.io/CMScver/).
 
 1. Dates MUST be in YYYY-MM-DD format. It’s international, sensible, and language-independent.
 Include release date for each release you do. People like to know when a release was done. The ISO 8601 format YYYY-MM-DD works logically from largest to smallest, doesn't overlap in ambiguous ways with other date formats, and is an [ISO standard](http://www.iso.org/iso/home/standards/iso8601.htm). Thus, it is the recommended date format for change logs.
-
-(Example: 2015-10-21 for October 21, 2015.)
 
 1. The format MUST HAVE Group changes in sub-sections to describe their impact on the project
 with the name of the sub-sections if any ADDITIONS, ENHANCEMENTS, BUGIXED, SECURITY, REMOVED, DEPRECATED.
@@ -89,7 +85,7 @@ or
 People can see what changes they might expect in upcoming releases and at release time, you just have to change "Unreleased" to the version number and add a new "Unreleased" header at the top.
 
 ```
-1.2.4 - Unreleased
+1.2.X.X. - Unreleased
 ```
 
 1. Contributors name SHOULD be writen in the Changelog and the commit MAY be added too
@@ -105,8 +101,13 @@ for keeping track of any changes.
 
 1. List the Revised Files. This show 
 where to find the changes. Organize it as: Added, Modified and Copied or renamed
+
 ```
-1.2.4 - Unreleased
+List of Files Revised
+
+settings.php
+admin/customize.php
+admin/css/customize.css
 ```
 
 1. Publicly available
