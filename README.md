@@ -31,7 +31,7 @@ Fix | Bugfixes| for any bug fixes.
  | deprecated| for once-stable features removed in upcoming releases.
  | Performance| for performance information (25% faster, lighter)
 
-[Additional words](/CHANGELOG.md) are available as introduction to each change of the list the ADDITIONS, ENHANCEMENTS, BUGFIXES, SECURITY, REMOVED, DEPRECATED.
+[Additional words](/CHANGELOG.md) are available as introduction to each change of the list the ADDITIONS, ENHANCEMENTS, BUGFIXES, UPDATE, SECURITY, REMOVED, DEPRECATED, PERFORMANCE.
   
 **If you'd like to leave feedback, please [open an issue on GitHub](https://software-development-guidelines.github.io/CMSchangelog/issues).**
   
