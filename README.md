@@ -18,7 +18,7 @@ Index of pages:
 
 # <a name="Summary"></a>Summary
 
-Given a update ADDITIONS, ENHANCEMENTS, BUGFIXES, SECURITY, REMOVED, DEPRECATED, track the:
+Given a update ADDITIONS, ENHANCEMENTS, BUGFIXES, UPDATE, SECURITY, REMOVED, DEPRECATED, PERFORMANCE track the:
 
 KEYWORD|KEYWORD | DEFINITION
 --------|--------|--------
@@ -33,7 +33,7 @@ Fix | Bugfixes| for any bug fixes.
 
 [Additional words](/CHANGELOG.md) are available as introduction to each change of the list the ADDITIONS, ENHANCEMENTS, BUGFIXES, UPDATE, SECURITY, REMOVED, DEPRECATED, PERFORMANCE.
   
-**If you'd like to leave feedback, please [open an issue on GitHub](https://software-development-guidelines.github.io/CMSchangelog/issues).**
+**If you'd like to leave feedback, please [open an issue on GitHub](https://github.com/Software-Development-Guidelines/CMSchangelog/issues).**
   
 # - CMS Changelog (CMSchangelog) DRAFT -  
 
