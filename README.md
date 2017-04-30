@@ -22,7 +22,6 @@ Given a update ADDITIONS, ENHANCEMENTS, BUGFIXES, SECURITY, REMOVED, DEPRECATED,
 
 KEYWORD|KEYWORD | DEFINITION
 --------|--------|--------
-Enhancement |  |????
 New | Additions| for new features. (Feature???)
 Tweak | Enhancements| for changes in existing functionality.
 Fix | Bugfixes| for any bug fixes.
