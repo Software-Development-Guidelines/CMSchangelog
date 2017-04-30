@@ -33,7 +33,7 @@ Fix | Bugfixes| for any bug fixes.
 
 [Additional words](/CHANGELOG.md) are available as introduction to each change of the list the ADDITIONS, ENHANCEMENTS, BUGFIXES, SECURITY, REMOVED, DEPRECATED.
   
-**If you'd like to leave feedback, please [open an issue on GitHub](https://github.com/colomet/CMSchangelog/issues).**
+**If you'd like to leave feedback, please [open an issue on GitHub](https://software-development-guidelines.github.io/CMSchangelog/issues).**
   
 # - CMS Changelog (CMSchangelog) DRAFT -  
 
