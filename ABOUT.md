@@ -3,18 +3,18 @@ Index of pages:
 
 * [Summary](/README.md)
 * [Introduction](/README.md)
-* [CMS Changelog (CMSchangelog)](/CHANGELOG.md)
-* [Why Explicit Versioning](/WHY.md)
+* [Explicit Changelog](/CHANGELOG.md)
+* [Why Explicit Changelog](/WHY.md)
 * [FAQ](/FAQ.md)
 * [ABOUT](/ABOUT.md)
-* [Who is using CMS Changelog?](/USERS.md)
+* [Who is using Explicit Changelog?](/USERS.md)
 
 
 # About
 
-The CMS Changelog is created by [Antonio Devís](https://github.com/colomet).
+The Explicit Changelog is created by [Antonio Devís](https://github.com/colomet).
 
-The CMS Changelog is a fork of [keepachangelog](http://keepachangelog.com) specification is authored by [Olivier Lacan](http://olivierlacan.com/) with influence of [Wordpress](https://codex.wordpress.org/WordPress_Versions) and [GNU](https://www.gnu.org/prep/standards/html_node/Change-Logs.html#Change-Logs).
+The Explicit Changelog is a fork of [keepachangelog](http://keepachangelog.com) specification is authored by [Olivier Lacan](http://olivierlacan.com/) with influence of [Wordpress](https://codex.wordpress.org/WordPress_Versions) and [GNU](https://www.gnu.org/prep/standards/html_node/Change-Logs.html#Change-Logs).
 
 If you'd like to leave feedback, please [open an issue on GitHub](https://github.com/Software-Development-Guidelines/CMSchangelog/issues).
 
@@ -33,7 +33,7 @@ This is because I want our community to reach a consensus. I believe the discuss
 
 # Support or Contact
 
-Having trouble with PHP CMS Versioning? Check out our [issues](https://github.com/Software-Development-Guidelines/CMSchangelog/issues)pages or [contact me](https://www.linkedin.com/in/antonio-devis-lopez/) and we’ll help you sort it out.
+Having trouble with Explicit Changelog? Check out our [issues](https://github.com/Software-Development-Guidelines/CMSchangelog/issues)pages or [contact me](https://www.linkedin.com/in/antonio-devis-lopez/) and we’ll help you sort it out.
 
 
 ---

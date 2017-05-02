@@ -3,15 +3,15 @@ Index of pages:
 
 * [Summary](/README.md)
 * [Introduction](/README.md)
-* [CMS Changelog (CMSchangelog)](/CHANGELOG.md)
-* [Why CMS Changelog](/WHY.md)
+* [Explicit Changelog](/CHANGELOG.md)
+* [Why Explicit Changelog](/WHY.md)
 * [FAQ](/FAQ.md)
 * [ABOUT](/ABOUT.md)
-* [Who is using CMS Changelog?](/USERS.md)
+* [Who is using Explicit Changelog?](/USERS.md)
 * [How to create an Historical](/HISTORICAL.md)
 
 
-# Why use CMS Changelog (CMS Changelog)?
+# Why use Explicit Changelog?
 The point of a change log is to make it easier for users and contributors to see precisely what notable changes have been made between each release (or version) of the project.
 
 A changelog is a file which contains a curated, chronologically ordered list of notable changes for each version of a project. The difference with a historical file is in the historical files you write all the commit logs.

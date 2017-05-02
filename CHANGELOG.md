@@ -3,15 +3,15 @@ Index of pages:
 
 * [Summary](/README.md)
 * [Introduction](/README.md)
-* [CMS Changelog (CMSchangelog)](/CHANGELOG.md)
-* [Why CMS Changelog](/WHY.md)
+* [Explicit Changelog](/CHANGELOG.md)
+* [Why Explicit Changelog](/WHY.md)
 * [FAQ](/FAQ.md)
 * [ABOUT](/ABOUT.md)
-* [Who is using CMS Changelog?](/USERS.md)
+* [Who is using Explicit Changelog?](/USERS.md)
 * [How to create an Historical](/HISTORICAL.md)
 
 
-# CMS Changelog (CMSchangelog)
+# Explicit Changelog
 
 A good change log sticks to these principles:
 --
@@ -30,7 +30,7 @@ For a more detailed information you can use ADDITIONS, ENHANCEMENTS, BUGFIXES, S
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](http://tools.ietf.org/html/rfc2119).
 
 
-1. Software using CMS Changelog MUST declare all the changes of the software. This changes
+1. Software using Explicit Changelog MUST declare all the changes of the software. This changes
 could be declared in the code itself or exist strictly in documentation.
 However it is done, it should be precise and comprehensive.
 
@@ -52,9 +52,9 @@ header with Version and Rlease date
 	```
 	1.2.3.0. - 2015-10-21
 	```
-1. CMSchangelog MAY use CMSver
-SEMVER or other ways to name your releases are allowed but we RECOMMENDED to use CMSver as we believe it could adapt better to each situation.
-Explicitly mention whether the project follows [CMS Versioning](https://software-development-guidelines.github.io/CMScver/).
+1. Explicit Changelog MAY use Explicit Versioning
+SEMVER or other ways to name your releases are allowed but we RECOMMENDED to use Explicit Versioning as we believe it could adapt better to each situation.
+Explicitly mention whether the project follows [Explicit Versioning](https://software-development-guidelines.github.io/Explicit-Versioning/).
 
 1. Dates MUST be in YYYY-MM-DD format. It’s international, sensible, and language-independent.
 Include release date for each release you do. People like to know when a release was done. The ISO 8601 format YYYY-MM-DD works logically from largest to smallest, doesn't overlap in ambiguous ways with other date formats, and is an [ISO standard](http://www.iso.org/iso/home/standards/iso8601.htm). Thus, it is the recommended date format for change logs.

@@ -3,11 +3,11 @@ Index of pages:
 
 * [Summary](/README.md)
 * [Introduction](/README.md)
-* [CMS Changelog (CMSchangelog)](/CHANGELOG.md)
-* [Why CMS Changelog](/WHY.md)
+* [Explicit Changelog](/CHANGELOG.md)
+* [Why Explicit Changelog](/WHY.md)
 * [FAQ](/FAQ.md)
 * [ABOUT](/ABOUT.md)
-* [Who is using CMS Changelog?](/USERS.md)
+* [Who is using Explicit Changelog?](/USERS.md)
 * [How to create an Historical](/HISTORICAL.md)
 
 
