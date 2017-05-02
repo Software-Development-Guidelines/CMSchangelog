@@ -16,7 +16,7 @@ The Explicit Changelog is created by [Antonio Devís](https://github.com/colomet
 
 The Explicit Changelog is a fork of [keepachangelog](http://keepachangelog.com) specification is authored by [Olivier Lacan](http://olivierlacan.com/) with influence of [Wordpress](https://codex.wordpress.org/WordPress_Versions) and [GNU](https://www.gnu.org/prep/standards/html_node/Change-Logs.html#Change-Logs).
 
-If you'd like to leave feedback, please [open an issue on GitHub](https://github.com/Software-Development-Guidelines/CMSchangelog/issues).
+If you'd like to leave feedback, please [open an issue on GitHub](https://github.com/Software-Development-Guidelines/Explicit-Changelog/issues).
 
 
 # How can I contribute?
@@ -33,7 +33,7 @@ This is because I want our community to reach a consensus. I believe the discuss
 
 # Support or Contact
 
-Having trouble with Explicit Changelog? Check out our [issues](https://github.com/Software-Development-Guidelines/CMSchangelog/issues)pages or [contact me](https://www.linkedin.com/in/antonio-devis-lopez/) and we’ll help you sort it out.
+Having trouble with Explicit Changelog? Check out our [issues](https://github.com/Software-Development-Guidelines/Explicit-Changelog/issues)pages or [contact me](https://www.linkedin.com/in/antonio-devis-lopez/) and we’ll help you sort it out.
 
 
 ---
