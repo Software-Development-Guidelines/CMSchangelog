@@ -5,6 +5,7 @@ Index of pages:
 * [Introduction](/README.md)
 * [Explicit Changelog](/CHANGELOG.md)
 * [Why Explicit Changelog](/WHY.md)
+* [GitHub labels](/LABELS.md)
 * [FAQ](/FAQ.md)
 * [ABOUT](/ABOUT.md)
 * [Who is using Explicit Changelog?](/USERS.md)
