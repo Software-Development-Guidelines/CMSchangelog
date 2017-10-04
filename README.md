@@ -54,4 +54,4 @@ https://restrictcontentpro.com/changelog/
 
 
 
-[Start page](./)
+[Start page](/CHANGELOG.md)
