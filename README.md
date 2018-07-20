@@ -30,6 +30,8 @@ Fix | Bugfixes| for any bug fixes.
   
 **If you'd like to leave feedback, please [open an issue on GitHub](https://github.com/Software-Development-Guidelines/Explicit-Changelog/issues).**
 
+[https://keepachangelog.com/en/1.0.0/](https://keepachangelog.com/en/1.0.0/
+
 # <a name="Introduction"></a>Introduction
 **In CMS (WordPress, Joomla, Drupal) also exist the problem of the complements (Modules, Aplications, Plugins, Components, add-ons ...) where we need to take care of the code once we integrate our development in the CMS or if someone create an extension of our code.** We need to know what it change in order to know if it will affect the site.
 
