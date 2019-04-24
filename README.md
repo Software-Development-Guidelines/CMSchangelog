@@ -17,14 +17,14 @@ Given a update ADDITIONS, ENHANCEMENTS, BUGFIXES, UPDATE, SECURITY, REMOVED, DEP
 
 KEYWORD|KEYWORD | DEFINITION
 --------|--------|--------
-New | Additions| for new features. (Feature???)
-Tweak | Enhancements| for changes in existing functionality.
-Fix | Bugfixes| for any bug fixes.
- | Update |  for any translation update or dependency or library or any include 3rd party software.
- | security| to invite users to upgrade in case of vulnerabilities.
- | removed| for deprecated features removed in this release.
- | deprecated| for once-stable features removed in upcoming releases.
- | Performance| for performance information (25% faster, lighter)
+Additions| for new features. (Feature???)
+Enhancements| for changes in existing functionality.
+Bugfixes| for any bug fixes.
+Update |  for any translation update or dependency or library or any include 3rd party software.
+Security| to invite users to upgrade in case of vulnerabilities.
+Removed| for deprecated features removed in this release.
+Deprecated| for once-stable features removed in upcoming releases.
+Performance| for performance information (25% faster, lighter)
 
 [Additional words](/CHANGELOG.md) are available as introduction to each change of the list the ADDITIONS, ENHANCEMENTS, BUGFIXES, UPDATE, SECURITY, REMOVED, DEPRECATED, PERFORMANCE.
   
