@@ -17,7 +17,7 @@ Given a update ADDITIONS, ENHANCEMENTS, BUGFIXES, UPDATE, SECURITY, REMOVED, DEP
 
 KEYWORD|DEFINITION 
 --------|--------
-Additions| for new features. (Feature???)
+Additions| for new features.
 Enhancements| for changes in existing functionality.
 Bugfixes| for any bug fixes.
 Update |  for any translation update or dependency or library or any include 3rd party software.
