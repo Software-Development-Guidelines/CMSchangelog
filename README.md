@@ -15,8 +15,8 @@ Index of pages:
 
 Given a update ADDITIONS, ENHANCEMENTS, BUGFIXES, UPDATE, SECURITY, REMOVED, DEPRECATED, PERFORMANCE track the:
 
-KEYWORD|KEYWORD | DEFINITION
---------|--------|--------
+KEYWORD|DEFINITION 
+--------|--------
 Additions| for new features. (Feature???)
 Enhancements| for changes in existing functionality.
 Bugfixes| for any bug fixes.
